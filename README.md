@@ -14,6 +14,7 @@ var informacwb = require('node-informacwb');
 
 ```javascript
 var SMS = new informacwb('usuario', 'senha');
+```
 
 #### Enviar uma mensagem para um ou mais destinatários
 
