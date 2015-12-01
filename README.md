@@ -18,6 +18,7 @@ var SMS = new informacwb('usuario', 'senha');
 
 #### Enviar uma mensagem para um ou mais destinatários
 
+```javascript
 SMS.send('remetente', destinatarios,'Mensagem a ser enviada.',function(err,result){
     if (err){
         return console.log(err);
