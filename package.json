@@ -1,0 +1,35 @@
+{
+  "author": {
+    "email": "joao@informacwb.com.br",
+    "name": "João Cândido de Souza Neto",
+    "url": "http://www.informacwb.com.br"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "request": "^2.62.0"
+  },
+  "description": "API para envio de mensagens SMS através da InformaCWB",
+  "directories": {
+    "lib": "./lib/"
+  },
+  "keywords": [
+    "bulk-sms",
+    "informacwb",
+    "sms"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "maintainers": [
+    {
+      "name": "jaoxico",
+      "email": "joao@consultorweb.cnt.br"
+    }
+  ],
+  "name": "node-informacwb",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaoxico/node-informacwb.git"
+  },
+  "version": "1.0.0"
+}
