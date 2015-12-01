@@ -1,0 +1,25 @@
+{
+  "name": "informacwb",
+  "description": "API para envio de mensagens SMS através da InformaCWB",
+  "version": "0.0.1",
+  "keywords": [
+    "sms",
+    "bulk-sms",
+    "informacwb"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "João Cândido de Souza Neto",
+    "email": "joao@informacwb.com.br",
+    "url": "http://www.informacwb.com.br"
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "readmeFilename": "README.md",
+  "main": "./lib/index",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "request": "^2.62.0"
+  }
+}
