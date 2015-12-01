@@ -29,11 +29,12 @@ SMS.send('remetente', destinatarios,'Mensagem a ser enviada.',function(err,resul
 ```
 
 Os destinatários podem ser um array de telefones que receberão a mensagem.
-Caso a mensagem esteja sendo enviada para apenas um destinatário, este pode ser informado em uma stringsimples ao invés de um array.
+Caso a mensagem esteja sendo enviada para apenas um destinatário, este pode
+ser informado em uma string simples ao invés de um array.
 
 #### Obter o status de mensagen(s)
  
-##### Método getLogs([filtro,] callback);
+#### Método getLogs([filtro,] callback);
 
 O parãmetro filtro é opcional e caso seja informado deve ser um objeto.
 

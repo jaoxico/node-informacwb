@@ -1,7 +1,7 @@
 {
   "name": "node-informacwb",
   "description": "API para envio de mensagens SMS através da InformaCWB",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "keywords": [
     "sms",
     "bulk-sms",
