@@ -1,18 +1,18 @@
-# informacwb
+# node-informacwb
 
 ### Como instalar
 
 npm install node-informacwb
 
-### O que é
-
-API para envio de mensagens SMS através da InformaCWB
-
 ### Como Usar
 
 ```javascript
 var informacwb = require('node-informacwb');
+```
 
+### Enviar mensagem
+
+```javascript
 var SMS = new informacwb('usuario', 'senha');
 
 SMS.send('sender',['telefone do destinatário'],'Mensagem a ser enviada.',function(err,result){
@@ -22,4 +22,5 @@ SMS.send('sender',['telefone do destinatário'],'Mensagem a ser enviada.',functi
 
     console.log(result);
 });
-...
+```
+

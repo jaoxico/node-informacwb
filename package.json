@@ -1,7 +1,7 @@
 {
-  "name": "informacwb",
+  "name": "node-informacwb",
   "description": "API para envio de mensagens SMS através da InformaCWB",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "sms",
     "bulk-sms",
@@ -12,6 +12,10 @@
     "name": "João Cândido de Souza Neto",
     "email": "joao@informacwb.com.br",
     "url": "http://www.informacwb.com.br"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/jaoxico/node-informacwb.git"
   },
   "directories": {
     "lib": "./lib/"
