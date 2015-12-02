@@ -1,5 +1,7 @@
 # node-informacwb
 
+![alt text](http://informacwb.com.br/img/logo_maior_fundo_branco.png)
+
 ### Como instalar
 
 npm install node-informacwb
@@ -32,7 +34,7 @@ Os destinatários podem ser um array de telefones que receberão a mensagem.
 Caso a mensagem esteja sendo enviada para apenas um destinatário, este pode
 ser informado em uma string simples ao invés de um array.
 
-#### Obter o status de mensagen(s)
+### Obter o status de mensagen(s)
  
 #### Método getLogs([filtro,] callback);
 
