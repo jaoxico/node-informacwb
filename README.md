@@ -54,3 +54,4 @@ sentUntil | date | Mensagens enviadas até.
 limit | int | Número máximo de mensagens no retorno
 mcc | string | Código do país.
 mnc | string | Código da operadora.
+
