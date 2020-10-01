@@ -4,7 +4,9 @@
 
 ### Como instalar
 
+```bash
 npm install node-informacwb
+```
 
 ### Como Usar
 
